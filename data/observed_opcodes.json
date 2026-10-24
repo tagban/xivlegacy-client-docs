@@ -1,0 +1,1340 @@
+[
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 1,
+  "count": 105501
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 2,
+  "count": 128
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 3,
+  "count": 61
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 5,
+  "count": 193
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 6,
+  "count": 26
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 7,
+  "count": 52
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 8,
+  "count": 76
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 12,
+  "count": 205
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 13,
+  "count": 193
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 15,
+  "count": 180
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 16,
+  "count": 193
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 202,
+  "count": 3088
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 203,
+  "count": 56
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 204,
+  "count": 3088
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 206,
+  "count": 3106
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 207,
+  "count": 3345
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 208,
+  "count": 3089
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 211,
+  "count": 2323
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 214,
+  "count": 2438
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 216,
+  "count": 14
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 225,
+  "count": 1
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 226,
+  "count": 70
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 227,
+  "count": 2054
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 302,
+  "count": 1538
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 303,
+  "count": 98
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 304,
+  "count": 261
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 305,
+  "count": 788
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 306,
+  "count": 1440
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 307,
+  "count": 138
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 308,
+  "count": 3267
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 310,
+  "count": 7662
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 311,
+  "count": 8317
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 313,
+  "count": 1162
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 314,
+  "count": 49
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 316,
+  "count": 167
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 317,
+  "count": 3088
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 324,
+  "count": 2722
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 325,
+  "count": 2452
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 326,
+  "count": 1740
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 327,
+  "count": 1740
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 328,
+  "count": 2342
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 334,
+  "count": 250
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 343,
+  "count": 253
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 353,
+  "count": 2
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 358,
+  "count": 400
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 359,
+  "count": 45
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 363,
+  "count": 2410
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 364,
+  "count": 54
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 365,
+  "count": 660
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 366,
+  "count": 660
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 367,
+  "count": 361
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 368,
+  "count": 12
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 377,
+  "count": 2452
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 378,
+  "count": 22
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 379,
+  "count": 3268
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 380,
+  "count": 250
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 381,
+  "count": 250
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 382,
+  "count": 250
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 383,
+  "count": 202
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 387,
+  "count": 48
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 395,
+  "count": 232
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 397,
+  "count": 180
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 405,
+  "count": 135
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 406,
+  "count": 180
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 410,
+  "count": 180
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 411,
+  "count": 180
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 412,
+  "count": 180
+ },
+ {
+  "service": "map",
+  "direction": "clientbound",
+  "opcode": 459,
+  "count": 128
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 1,
+  "count": 104306
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 2,
+  "count": 128
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 3,
+  "count": 4
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 6,
+  "count": 128
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 7,
+  "count": 996
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 202,
+  "count": 472274
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 204,
+  "count": 184
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 205,
+  "count": 1422
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 206,
+  "count": 141
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 301,
+  "count": 678
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 302,
+  "count": 164
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 304,
+  "count": 11
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 307,
+  "count": 161
+ },
+ {
+  "service": "map",
+  "direction": "serverbound",
+  "opcode": 459,
+  "count": 126
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 1,
+  "count": 211002
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 2,
+  "count": 256
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 3,
+  "count": 66
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 5,
+  "count": 193
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 6,
+  "count": 154
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 7,
+  "count": 2654
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 8,
+  "count": 76
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 12,
+  "count": 205
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 13,
+  "count": 193
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 15,
+  "count": 180
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 16,
+  "count": 193
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 202,
+  "count": 583561
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 203,
+  "count": 56
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 204,
+  "count": 3488
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 205,
+  "count": 2323
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 206,
+  "count": 3307
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 207,
+  "count": 3345
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 208,
+  "count": 3089
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 211,
+  "count": 2323
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 214,
+  "count": 2438
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 216,
+  "count": 14
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 225,
+  "count": 1
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 226,
+  "count": 70
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 227,
+  "count": 2054
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 301,
+  "count": 836
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 302,
+  "count": 1751
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 303,
+  "count": 99
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 304,
+  "count": 292
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 305,
+  "count": 788
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 306,
+  "count": 1440
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 307,
+  "count": 318
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 308,
+  "count": 3267
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 310,
+  "count": 7662
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 311,
+  "count": 8317
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 313,
+  "count": 1162
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 314,
+  "count": 49
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 316,
+  "count": 167
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 317,
+  "count": 3088
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 324,
+  "count": 2722
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 325,
+  "count": 2452
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 326,
+  "count": 1740
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 327,
+  "count": 1740
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 328,
+  "count": 2342
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 334,
+  "count": 250
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 343,
+  "count": 253
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 353,
+  "count": 2
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 358,
+  "count": 400
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 359,
+  "count": 45
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 363,
+  "count": 2410
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 364,
+  "count": 54
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 365,
+  "count": 660
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 366,
+  "count": 660
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 367,
+  "count": 361
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 368,
+  "count": 12
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 377,
+  "count": 2452
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 378,
+  "count": 22
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 379,
+  "count": 3268
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 380,
+  "count": 250
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 381,
+  "count": 250
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 382,
+  "count": 250
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 383,
+  "count": 202
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 387,
+  "count": 48
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 394,
+  "count": 128
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 395,
+  "count": 232
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 397,
+  "count": 180
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 405,
+  "count": 135
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 406,
+  "count": 180
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 410,
+  "count": 180
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 411,
+  "count": 180
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 412,
+  "count": 180
+ },
+ {
+  "service": "world",
+  "direction": "clientbound",
+  "opcode": 459,
+  "count": 128
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 1,
+  "count": 210918
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 2,
+  "count": 256
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 3,
+  "count": 39
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 5,
+  "count": 39
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 6,
+  "count": 130
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 7,
+  "count": 2615
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 8,
+  "count": 15
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 12,
+  "count": 111
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 13,
+  "count": 28
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 15,
+  "count": 85
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 16,
+  "count": 81
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 202,
+  "count": 580759
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 203,
+  "count": 38
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 204,
+  "count": 1886
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 205,
+  "count": 2323
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 206,
+  "count": 1127
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 207,
+  "count": 3126
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 208,
+  "count": 1132
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 211,
+  "count": 2243
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 214,
+  "count": 1224
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 216,
+  "count": 7
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 225,
+  "count": 1
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 226,
+  "count": 51
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 227,
+  "count": 901
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 301,
+  "count": 836
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 302,
+  "count": 619
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 303,
+  "count": 50
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 304,
+  "count": 292
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 305,
+  "count": 720
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 306,
+  "count": 690
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 307,
+  "count": 298
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 308,
+  "count": 875
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 310,
+  "count": 2691
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 311,
+  "count": 3817
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 313,
+  "count": 809
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 314,
+  "count": 23
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 316,
+  "count": 109
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 317,
+  "count": 994
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 324,
+  "count": 880
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 325,
+  "count": 640
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 326,
+  "count": 875
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 327,
+  "count": 550
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 328,
+  "count": 876
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 334,
+  "count": 78
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 343,
+  "count": 253
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 353,
+  "count": 1
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 358,
+  "count": 381
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 359,
+  "count": 42
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 363,
+  "count": 604
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 364,
+  "count": 17
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 365,
+  "count": 528
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 366,
+  "count": 192
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 367,
+  "count": 116
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 368,
+  "count": 4
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 377,
+  "count": 670
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 378,
+  "count": 22
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 379,
+  "count": 830
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 380,
+  "count": 111
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 381,
+  "count": 75
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 382,
+  "count": 66
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 383,
+  "count": 120
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 387,
+  "count": 33
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 395,
+  "count": 88
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 397,
+  "count": 118
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 405,
+  "count": 94
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 406,
+  "count": 57
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 410,
+  "count": 73
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 411,
+  "count": 63
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 412,
+  "count": 75
+ },
+ {
+  "service": "world",
+  "direction": "serverbound",
+  "opcode": 459,
+  "count": 256
+ }
+]

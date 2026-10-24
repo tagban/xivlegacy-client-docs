@@ -1,0 +1,1328 @@
+[
+ {
+  "name": "OP_PONG_RESPONSE",
+  "opcode": 1,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_HANDSHAKE_RESPONSE",
+  "opcode": 2,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_SEND_MESSAGE_PUBLIC",
+  "opcode": 3,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_MAP",
+  "opcode": 5,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_DELETE_ALL_ACTORS",
+  "opcode": 7,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_PONG",
+  "opcode": 8,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_MASS_DELETE_ACTOR_X11",
+  "opcode": 8,
+  "section": "Connection / handshake",
+  "doc": "Game-message opcode 0x0008 = \"Mass Delete Actor Body (variable)\"."
+ },
+ {
+  "name": "OP_MASS_DELETE_ACTOR_START",
+  "opcode": 6,
+  "section": "Connection / handshake",
+  "doc": "Wiki: \"Mass Delete Actor Start\" (server\u2192client)."
+ },
+ {
+  "name": "OP_MASS_DELETE_ACTOR_X16",
+  "opcode": 9,
+  "section": "Connection / handshake",
+  "doc": "Wiki: \"Mass Delete Actor Body (x10)\" \u2014 `x10` is HEX (16 actor ids per packet)."
+ },
+ {
+  "name": "OP_MASS_DELETE_ACTOR_X32",
+  "opcode": 10,
+  "section": "Connection / handshake",
+  "doc": "Wiki: \"Mass Delete Actor Body (x20)\" \u2014 `x20` is HEX (32 actor ids per packet)."
+ },
+ {
+  "name": "OP_MASS_DELETE_ACTOR_X64",
+  "opcode": 11,
+  "section": "Connection / handshake",
+  "doc": "Wiki: \"Mass Delete Actor Body (x40)\" \u2014 `x40` is HEX (64 actor ids per packet)."
+ },
+ {
+  "name": "OP_SET_MUSIC",
+  "opcode": 12,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_WEATHER",
+  "opcode": 13,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_LOGOUT",
+  "opcode": 14,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_0XF_PACKET",
+  "opcode": 15,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_DALAMUD",
+  "opcode": 16,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_QUIT",
+  "opcode": 17,
+  "section": "Connection / handshake",
+  "doc": ""
+ },
+ {
+  "name": "OP_SESSION_BEGIN",
+  "opcode": 4096,
+  "section": "World\u2194map-server session control",
+  "doc": ""
+ },
+ {
+  "name": "OP_SESSION_END",
+  "opcode": 4097,
+  "section": "World\u2194map-server session control",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_ZONE_CHANGE_REQUEST",
+  "opcode": 4098,
+  "section": "World\u2194map-server session control",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_PARTY_MODIFY",
+  "opcode": 4128,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_PARTY_LEAVE",
+  "opcode": 4129,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_PARTY_INVITE",
+  "opcode": 4130,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_GROUP_INVITE_RESULT",
+  "opcode": 4131,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_CREATE_LINKSHELL",
+  "opcode": 4133,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_MODIFY_LINKSHELL",
+  "opcode": 4134,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_DELETE_LINKSHELL",
+  "opcode": 4135,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_LINKSHELL_CHANGE",
+  "opcode": 4136,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_LINKSHELL_INVITE",
+  "opcode": 4137,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_LINKSHELL_INVITE_CANCEL",
+  "opcode": 4144,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_LINKSHELL_LEAVE",
+  "opcode": 4145,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_LINKSHELL_RANK_CHANGE",
+  "opcode": 4146,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_PARTY_SYNC",
+  "opcode": 4112,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_LINKSHELL_RESULT",
+  "opcode": 4113,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_WORLD_ERROR",
+  "opcode": 8191,
+  "section": "World\u2194map-server group coordination",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_UPDATE_PLAYER_POSITION",
+  "opcode": 202,
+  "section": "Actor lifecycle",
+  "doc": "Inbound opcode for `UpdatePlayerPositionPacket` \u2014 shares its wire id with the outbound `OP_ADD_ACTOR` (direction disambiguates)."
+ },
+ {
+  "name": "OP_ADD_ACTOR",
+  "opcode": 202,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_SET_TARGET",
+  "opcode": 205,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_LOCK_TARGET",
+  "opcode": 204,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_ZONE_IN_COMPLETE",
+  "opcode": 7,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_LANGUAGE_CODE",
+  "opcode": 6,
+  "section": "Actor lifecycle",
+  "doc": "LanguageCode (0x0006) \u2014 fired by the client once it's safe to receive world-spawn packets."
+ },
+ {
+  "name": "OP_RX_EVENT_START",
+  "opcode": 301,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_EVENT_UPDATE",
+  "opcode": 302,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_DATA_REQUEST",
+  "opcode": 303,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Data Request\" (client\u2192server)."
+ },
+ {
+  "name": "OP_RX_GROUP_CREATED",
+  "opcode": 307,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Group Created\" (client\u2192server)."
+ },
+ {
+  "name": "OP_RX_CHAT_MESSAGE",
+  "opcode": 3,
+  "section": "Actor lifecycle",
+  "doc": "Chat."
+ },
+ {
+  "name": "OP_RX_START_RECRUITING",
+  "opcode": 451,
+  "section": "Actor lifecycle",
+  "doc": "Recruitment (party finder)."
+ },
+ {
+  "name": "OP_RX_END_RECRUITING",
+  "opcode": 452,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_RECRUITER_STATE",
+  "opcode": 453,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_RECRUITING_ACCEPTED",
+  "opcode": 454,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_RECRUITING_SEARCH",
+  "opcode": 455,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_RECRUITING_DETAILS",
+  "opcode": 456,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_BLACKLIST_ADD",
+  "opcode": 457,
+  "section": "Actor lifecycle",
+  "doc": "Social (blacklist / friendlist)."
+ },
+ {
+  "name": "OP_RX_BLACKLIST_REMOVE",
+  "opcode": 458,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_BLACKLIST_REQUEST",
+  "opcode": 459,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_FRIENDLIST_ADD",
+  "opcode": 460,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_FRIENDLIST_REMOVE",
+  "opcode": 461,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_FRIENDLIST_REQUEST",
+  "opcode": 462,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_FRIEND_STATUS",
+  "opcode": 463,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_ACHIEVEMENT_PROGRESS",
+  "opcode": 309,
+  "section": "Actor lifecycle",
+  "doc": "Achievement progress query."
+ },
+ {
+  "name": "OP_RX_ITEM_PACKAGE_REQUEST",
+  "opcode": 305,
+  "section": "Actor lifecycle",
+  "doc": "Item-package query (the C# 0x0131 path \u2014 used for retainer item listings + bazaar)."
+ },
+ {
+  "name": "OP_RX_FAQ_LIST_REQUEST",
+  "opcode": 464,
+  "section": "Actor lifecycle",
+  "doc": "Support desk."
+ },
+ {
+  "name": "OP_RX_FAQ_BODY_REQUEST",
+  "opcode": 465,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_SUPPORT_ISSUE_REQUEST",
+  "opcode": 466,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_GM_TICKET_STATE",
+  "opcode": 467,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_GM_TICKET_BODY",
+  "opcode": 468,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_GM_TICKET_SEND",
+  "opcode": 469,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RX_GM_TICKET_END",
+  "opcode": 470,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_REMOVE_ACTOR",
+  "opcode": 203,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_ACTOR_INSTANTIATE",
+  "opcode": 204,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_POSITION",
+  "opcode": 206,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_MOVE_ACTOR_TO_POSITION",
+  "opcode": 207,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_SPEED",
+  "opcode": 208,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_TARGET_ANIMATED",
+  "opcode": 211,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_APPEARANCE",
+  "opcode": 214,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_BG_PROPERTIES",
+  "opcode": 216,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_PLAY_BG_ANIMATION",
+  "opcode": 217,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_PLAY_ANIMATION_ON_ACTOR",
+  "opcode": 218,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_TARGET",
+  "opcode": 219,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_RESET_HEAD",
+  "opcode": 222,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Reset Head\"."
+ },
+ {
+  "name": "OP_ACTOR_DO_EMOTE",
+  "opcode": 225,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_0XE2_PACKET",
+  "opcode": 226,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_ACTOR_SPECIAL_GRAPHIC",
+  "opcode": 227,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_START_COUNTDOWN",
+  "opcode": 229,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_NAME",
+  "opcode": 317,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_STATE",
+  "opcode": 308,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_EVENT_STATUS",
+  "opcode": 310,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_PROPERTY",
+  "opcode": 311,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_SUB_STATE",
+  "opcode": 324,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_ICON",
+  "opcode": 325,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_SET_BEGIN",
+  "opcode": 326,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_SET_END",
+  "opcode": 327,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_LIST_X01",
+  "opcode": 328,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_LIST_X08",
+  "opcode": 329,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_LIST_X16",
+  "opcode": 330,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_LIST_X32",
+  "opcode": 331,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_LIST_X64",
+  "opcode": 332,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_LINKED_ITEM_LIST_X01",
+  "opcode": 333,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_LINKED_ITEM_LIST_X08",
+  "opcode": 334,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_LINKED_ITEM_LIST_X16",
+  "opcode": 335,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_LINKED_ITEM_LIST_X32",
+  "opcode": 336,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_LINKED_ITEM_LIST_X64",
+  "opcode": 337,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_REMOVE_X01",
+  "opcode": 338,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_REMOVE_X08",
+  "opcode": 339,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_REMOVE_X16",
+  "opcode": 340,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_REMOVE_X32",
+  "opcode": 341,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_REMOVE_X64",
+  "opcode": 342,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GAME_MESSAGE_ACTOR1",
+  "opcode": 343,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GAME_MESSAGE_ACTOR2",
+  "opcode": 344,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GAME_MESSAGE_ACTOR3",
+  "opcode": 345,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GAME_MESSAGE_ACTOR4",
+  "opcode": 346,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GAME_MESSAGE_ACTOR5",
+  "opcode": 347,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_CUSTOM_SENDER_X48",
+  "opcode": 348,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_CUSTOM_SENDER_X58",
+  "opcode": 349,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_CUSTOM_SENDER_X68",
+  "opcode": 350,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_CUSTOM_SENDER_X78",
+  "opcode": 351,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_CUSTOM_SENDER_X98",
+  "opcode": 352,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_DISPID_SENDER_X30",
+  "opcode": 353,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Text Sheet Message (DispId Sender) (30b)\"."
+ },
+ {
+  "name": "OP_TEXT_SHEET_DISPID_SENDER_X38",
+  "opcode": 354,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_DISPID_SENDER_X40",
+  "opcode": 355,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_DISPID_SENDER_X50",
+  "opcode": 356,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_DISPID_SENDER_X60",
+  "opcode": 357,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_TEXT_SHEET_NO_ACTOR_X28",
+  "opcode": 358,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Text Sheet Message (No Source Actor) (28b)\"."
+ },
+ {
+  "name": "OP_TEXT_SHEET_NO_ACTOR_X38",
+  "opcode": 359,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Text Sheet Message (No Source Actor) (38b)\"."
+ },
+ {
+  "name": "OP_TEXT_SHEET_NO_ACTOR_X38_ALT",
+  "opcode": 360,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Text Sheet Message (No Source Actor) (38b)\" \u2014 second 38-byte variant."
+ },
+ {
+  "name": "OP_TEXT_SHEET_NO_ACTOR_X48",
+  "opcode": 361,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Text Sheet Message (No Source Actor) (48b)\"."
+ },
+ {
+  "name": "OP_TEXT_SHEET_NO_ACTOR_X68",
+  "opcode": 362,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_IS_ZONING",
+  "opcode": 379,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_STATUS",
+  "opcode": 375,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTOR_STATUS_ALL",
+  "opcode": 377,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SYNCH_GROUP_WORK_VALUES",
+  "opcode": 378,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GROUP_HEADER",
+  "opcode": 380,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GROUP_MEMBERS_BEGIN",
+  "opcode": 381,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GROUP_MEMBERS_END",
+  "opcode": 382,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GROUP_MEMBERS_X08",
+  "opcode": 383,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GROUP_MEMBERS_X16",
+  "opcode": 384,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GROUP_MEMBERS_X32",
+  "opcode": 385,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_GROUP_MEMBERS_X64",
+  "opcode": 386,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_CONTENT_MEMBERS_X08",
+  "opcode": 387,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_CONTENT_MEMBERS_X16",
+  "opcode": 388,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_CONTENT_MEMBERS_X32",
+  "opcode": 389,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_CONTENT_MEMBERS_X64",
+  "opcode": 390,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_OCCUPANCY_GROUP",
+  "opcode": 391,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Set Occupancy Group (DOUBLE CHECK!)\"."
+ },
+ {
+  "name": "OP_CREATE_NAMED_GROUP",
+  "opcode": 392,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_CREATE_NAMED_GROUP_MULTIPLE",
+  "opcode": 393,
+  "section": "Actor lifecycle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACTIVE_LINKSHELL",
+  "opcode": 394,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Set Active Linkshell\"."
+ },
+ {
+  "name": "OP_SET_GROUP_LAYOUT_ID",
+  "opcode": 395,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Set Group LayoutID\"."
+ },
+ {
+  "name": "OP_PARTY_MAP_MARKER_UPDATE",
+  "opcode": 397,
+  "section": "Actor lifecycle",
+  "doc": "Wiki: \"Party Map Marker Update (x16, variable)\"."
+ },
+ {
+  "name": "OP_SET_TALK_EVENT_CONDITION",
+  "opcode": 302,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_KICK_EVENT",
+  "opcode": 303,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_RUN_EVENT_FUNCTION",
+  "opcode": 304,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_END_EVENT",
+  "opcode": 305,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_0X132_PACKET",
+  "opcode": 306,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_GENERIC_DATA",
+  "opcode": 307,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_DELETE_GROUP",
+  "opcode": 323,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_NOTICE_EVENT_CONDITION",
+  "opcode": 363,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_EMOTE_EVENT_CONDITION",
+  "opcode": 364,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_BEGIN_CHANGE",
+  "opcode": 365,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_INVENTORY_END_CHANGE",
+  "opcode": 366,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_PUSH_CIRCLE_EVENT_CONDITION",
+  "opcode": 367,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_PUSH_FAN_EVENT_CONDITION",
+  "opcode": 368,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_PUSH_BOX_EVENT_CONDITION",
+  "opcode": 373,
+  "section": "Events",
+  "doc": ""
+ },
+ {
+  "name": "OP_COMMAND_RESULT_X01",
+  "opcode": 313,
+  "section": "Battle",
+  "doc": ""
+ },
+ {
+  "name": "OP_COMMAND_RESULT_X10",
+  "opcode": 314,
+  "section": "Battle",
+  "doc": ""
+ },
+ {
+  "name": "OP_COMMAND_RESULT_X18",
+  "opcode": 315,
+  "section": "Battle",
+  "doc": ""
+ },
+ {
+  "name": "OP_COMMAND_RESULT_X00",
+  "opcode": 316,
+  "section": "Battle",
+  "doc": ""
+ },
+ {
+  "name": "OP_BATTLE_ACTION_X10",
+  "opcode": 314,
+  "section": "Battle",
+  "doc": ""
+ },
+ {
+  "name": "OP_BATTLE_ACTION_X18",
+  "opcode": 315,
+  "section": "Battle",
+  "doc": ""
+ },
+ {
+  "name": "OP_SEND_MESSAGE",
+  "opcode": 3,
+  "section": "Chat / system messages",
+  "doc": "Meteor `SendMessagePacket.cs` \u2014 opcode 0x0003 in BOTH directions (the client's outgoing chat arrives as `OP_RX_CHAT_MESSAGE`, same value, distinguished by direc"
+ },
+ {
+  "name": "OP_GAME_MESSAGE",
+  "opcode": 509,
+  "section": "Chat / system messages",
+  "doc": ""
+ },
+ {
+  "name": "OP_MASS_SET_ITEM_MODIFIER_BEGIN",
+  "opcode": 399,
+  "section": "Item-modifier mass emission",
+  "doc": "Wiki: \"Mass Set Item Modifier Begin\"."
+ },
+ {
+  "name": "OP_MASS_SET_ITEM_MODIFIER",
+  "opcode": 400,
+  "section": "Item-modifier mass emission",
+  "doc": "Wiki: \"Mass Set Item Modifier\" \u2014 per-slot modifier emission inside a begin/end frame."
+ },
+ {
+  "name": "OP_MASS_SET_ITEM_MODIFIER_END",
+  "opcode": 401,
+  "section": "Item-modifier mass emission",
+  "doc": "Wiki: \"Mass Set Item Modifier End\"."
+ },
+ {
+  "name": "OP_SEND_ADDICTION_LIMIT_MESSAGE",
+  "opcode": 402,
+  "section": "Item-modifier mass emission",
+  "doc": "Wiki: \"Send Addiction Limit Message\"."
+ },
+ {
+  "name": "OP_SET_CONTROL_STATE",
+  "opcode": 403,
+  "section": "Item-modifier mass emission",
+  "doc": "Wiki: \"Stops control (0x14) and starts (0x15)\"."
+ },
+ {
+  "name": "OP_SET_GRAND_COMPANY",
+  "opcode": 404,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ENMITY_INDICATOR",
+  "opcode": 405,
+  "section": "Player state",
+  "doc": "Wiki: \"Set Emnity Indicator\" (sic)."
+ },
+ {
+  "name": "OP_SET_SPECIAL_EVENT_WORK",
+  "opcode": 406,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_CURRENT_MOUNT_CHOCOBO",
+  "opcode": 407,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_CHOCOBO_NAME",
+  "opcode": 408,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_HAS_CHOCOBO",
+  "opcode": 409,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_COMPLETED_ACHIEVEMENTS",
+  "opcode": 410,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_LATEST_ACHIEVEMENTS",
+  "opcode": 411,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_ACHIEVEMENT_POINTS",
+  "opcode": 412,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_PLAYER_TITLE",
+  "opcode": 413,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_ACHIEVEMENT_EARNED",
+  "opcode": 414,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SEND_ACHIEVEMENT_RATE",
+  "opcode": 415,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_CURRENT_MOUNT_GOOBBUE",
+  "opcode": 416,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_HAS_GOOBBUE",
+  "opcode": 417,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_CUTSCENE_BOOK",
+  "opcode": 419,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_CURRENT_JOB",
+  "opcode": 420,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_PLAYER_ITEM_STORAGE",
+  "opcode": 421,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_SET_PLAYER_DREAM",
+  "opcode": 423,
+  "section": "Player state",
+  "doc": ""
+ },
+ {
+  "name": "OP_BLACKLIST_ADDED",
+  "opcode": 457,
+  "section": "Social / friends / blacklist",
+  "doc": ""
+ },
+ {
+  "name": "OP_BLACKLIST_REMOVED",
+  "opcode": 458,
+  "section": "Social / friends / blacklist",
+  "doc": ""
+ },
+ {
+  "name": "OP_SEND_BLACKLIST",
+  "opcode": 459,
+  "section": "Social / friends / blacklist",
+  "doc": ""
+ },
+ {
+  "name": "OP_FRIENDLIST_ADDED",
+  "opcode": 460,
+  "section": "Social / friends / blacklist",
+  "doc": ""
+ },
+ {
+  "name": "OP_FRIENDLIST_REMOVED",
+  "opcode": 461,
+  "section": "Social / friends / blacklist",
+  "doc": ""
+ },
+ {
+  "name": "OP_SEND_FRIENDLIST",
+  "opcode": 462,
+  "section": "Social / friends / blacklist",
+  "doc": ""
+ },
+ {
+  "name": "OP_FRIEND_STATUS",
+  "opcode": 463,
+  "section": "Social / friends / blacklist",
+  "doc": ""
+ },
+ {
+  "name": "OP_FAQ_LIST_RESPONSE",
+  "opcode": 464,
+  "section": "Support desk",
+  "doc": ""
+ },
+ {
+  "name": "OP_FAQ_BODY_RESPONSE",
+  "opcode": 465,
+  "section": "Support desk",
+  "doc": ""
+ },
+ {
+  "name": "OP_ISSUE_LIST_RESPONSE",
+  "opcode": 466,
+  "section": "Support desk",
+  "doc": ""
+ },
+ {
+  "name": "OP_START_GM_TICKET",
+  "opcode": 467,
+  "section": "Support desk",
+  "doc": ""
+ },
+ {
+  "name": "OP_GM_TICKET",
+  "opcode": 468,
+  "section": "Support desk",
+  "doc": ""
+ },
+ {
+  "name": "OP_GM_TICKET_SENT_RESPONSE",
+  "opcode": 469,
+  "section": "Support desk",
+  "doc": ""
+ },
+ {
+  "name": "OP_END_GM_TICKET",
+  "opcode": 470,
+  "section": "Support desk",
+  "doc": ""
+ },
+ {
+  "name": "OP_ITEM_SEARCH_RESULTS_BEGIN",
+  "opcode": 471,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_ITEM_SEARCH_RESULTS_BODY",
+  "opcode": 472,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_ITEM_SEARCH_RESULTS_END",
+  "opcode": 473,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_RETAINER_RESULT_END",
+  "opcode": 474,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_RETAINER_RESULT_BODY",
+  "opcode": 475,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_RETAINER_RESULT_UPDATE",
+  "opcode": 476,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_RETAINER_SEARCH_HISTORY",
+  "opcode": 477,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_PLAYER_SEARCH_INFO_RESULT",
+  "opcode": 479,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_PLAYER_SEARCH_COMMENT_RESULT",
+  "opcode": 480,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_ITEM_SEARCH_CLOSE",
+  "opcode": 481,
+  "section": "Search",
+  "doc": ""
+ },
+ {
+  "name": "OP_START_RECRUITING_RESPONSE",
+  "opcode": 451,
+  "section": "Recruitment",
+  "doc": ""
+ },
+ {
+  "name": "OP_END_RECRUITMENT",
+  "opcode": 452,
+  "section": "Recruitment",
+  "doc": ""
+ },
+ {
+  "name": "OP_RECRUITER_STATE",
+  "opcode": 453,
+  "section": "Recruitment",
+  "doc": ""
+ },
+ {
+  "name": "OP_CURRENT_RECRUITMENT_DETAILS",
+  "opcode": 456,
+  "section": "Recruitment",
+  "doc": ""
+ }
+]
