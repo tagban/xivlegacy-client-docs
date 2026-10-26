@@ -5,6 +5,8 @@ macOS client for it and running it against a local [Garlemald](https://github.co
 server: the network protocol and opcodes, the login and zone-in flows, the tutorials, graphics and
 input findings, and a dated log of everything we ran into.
 
+**Community:** questions, testing and news on the [XIVLegacy Discord](https://discord.gg/D9k3khqvy8).
+
 This repository is documentation only. It contains no game files, no game text and no code from
 the client, and it doesn't describe how to rebuild the native client.
 
