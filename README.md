@@ -7,6 +7,8 @@ input findings, and a dated log of everything we ran into.
 
 **Community:** questions, testing and news on the [XIVLegacy Discord](https://discord.gg/D9k3khqvy8).
 
+**Player reference:** items, quests, monsters, NPCs and leves of 1.23b at the [XIVLegacy Reference](https://tagban.github.io/xivlegacy-reference/).
+
 This repository is documentation only. It contains no game files, no game text and no code from
 the client, and it doesn't describe how to rebuild the native client.
 
