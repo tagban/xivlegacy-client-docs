@@ -7,6 +7,8 @@ input findings, and a dated log of everything we ran into.
 
 **Community:** questions, testing and news on the [XIVLegacy Discord](https://discord.gg/D9k3khqvy8).
 
+**A passion project.** XIVLegacy preserves FINAL FANTASY XIV as it was in 1.0 so people can walk through it again — and seeing the original up close may help explain why Square Enix rebuilt it as *A Realm Reborn*. If you enjoy old Eorzea, please play the game today: FINAL FANTASY XIV has a [free trial](https://freetrial.finalfantasyxiv.com/) with no time limit.
+
 **Player reference:** items, quests, monsters, NPCs and leves of 1.23b at the [XIVLegacy Reference](https://tagban.github.io/xivlegacy-reference/).
 
 This repository is documentation only. It contains no game files, no game text and no code from
